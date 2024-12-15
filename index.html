@@ -1,0 +1,289 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Edit meta description for SEO -->
+
+  <meta name="description" content="A website by Nehan. I'm student currently pursuing my bachelor's degree in Computer
+lives easier and miserable.">
+  <!-- Edit title -->
+  <title>Nehan</title>
+  <link rel="shortcut icon" href="logo.pngogo.png" type="image/x-icon">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&amp;family=Work+Sans:wght@400;800&amp;family=Mollas&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+  <noscript>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Work+Sans:wght@400;800&family=Mollas&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </noscript>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* Apply Mollas font to all h1 elements */
+    h1 {
+      font-family: 'Mollas', sans-serif;
+    }
+
+    /* Remove gaps between sections */
+    section, .center {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Minimalistic curved button styling */
+    button, .button {
+      border-radius: 12px;
+      padding: 6px 12px;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.9rem;
+    }
+
+    button:hover, .button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Clean layout adjustments */
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.6;
+      background-color: #222;
+      color: #eee;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+      padding: 10px 20px;
+      background-color: #007BFF; /* Updated to blue */
+      margin: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: #D9D9D9;
+    }
+
+    /* Sidebar adjustments */
+    .about-social-container {
+      background-color: #007BFF; /* Updated to match blue theme */
+      padding: 20px;
+      border-radius: 8px;
+      color: white;
+    }
+
+    .about-social-container a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .about-social-container a:hover {
+      text-decoration: underline;
+    }
+
+    /* Skills alignment and styling */
+    .skill {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    .skill li {
+      background-color: #007BFF;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s;
+    }
+
+    .skill li:hover {
+      transform: scale(1.05);
+    }
+
+    /* Section title styling */
+    h2 {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 2rem;
+      color: #FFD700;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    /* Paragraph styling */
+    p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #ccc;
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#top">HOME</a></li>
+      <li><a href="#project">PROJECTS</a></li>
+      <li><a href="#about">ABOUT</a></li>
+    </ul>
+  </nav>
+  <!-- End of Navigation -->
+
+  <!-- Home -->
+  <section class="center">
+    <main>
+      <!-- img and info container -->
+      <div class="img-info-container">
+        <!-- profile picture -->
+        <div class="img-container">
+          <img width="80" height="80" src="Watashi.jpeg" alt="pfp">
+        </div>
+
+        <!-- info / the large text and social media -->
+        <div class="info-container">
+          <!-- svg/social media container -->
+          <div class="social-container">
+            <!-- GITHUB -->
+            <a href="https://github.com/neyhann" target="_blank"><img width="24" height="24" src="github.svg" alt="github"></a>
+
+            <!-- LINKEDIN -->
+            <a href="https://www.instagram.com/nehankarki" target="_blank"><img width="24" height="24" src="linkedin.svg" alt="linkedin"></a>
+          </div>
+
+          <!-- name -->
+          <h1>Nehan</h1>
+          <hr>
+        </div>
+      </div>
+
+      <p class="user-bio">
+        I’m a Student currently in high school. <br>
+        I’m passionate about developing products that make people's lives
+        easier and miserable.
+      </p>
+      <!-- Quote  -->
+      <div class="quote-container">
+        <p>
+          <b style="font-family: 'Monocraft';">
+            believe
+          </b>
+        </p>
+      </div>
+    </main>
+  </section>
+  <!-- End of Home -->
+
+  <!-- Start of Project -->
+  <section class="center">
+    <div id="project">
+      <h2>PROJECTS</h2>
+      <!-- project container/ grid -->
+      <div class="project-container">
+        <!-- Repo -->
+        <div class="repository-container">
+          <div class="repository-head">
+            <a href="https://github.com/neyhann" target="_blank" rel="noopener noreferrer">
+              <h3>simple paint</h3>
+            </a>
+            <a href="https://github.com/neyhann/simplepaint" target="_blank" rel="noopener noreferrer"><img width="16" height="16" src="images/external-link.svg" alt="external-link"></a>
+          </div>
+
+          <p class="repository-description">
+            Create some good art using paint.
+          </p>
+          <div class="repository-language-used-container">
+            <span class="language-used">Python</span>
+          </div>
+        </div>
+        <!-- Repo End -->
+        <!-- Repo -->
+        <div class="repository-container">
+          <div class="repository-head">
+            <a href="https://github.com/neyhann" target="_blank" rel="noopener noreferrer">
+              <h3>a new one soon!</h3>
+            </a>
+            <a href="https://github.com/neyhann" target="_blank" rel="noopener noreferrer"><img width="16" height="16" src="external-link.svg" alt="external-link"></a>
+          </div>
+
+          <p class="repository-description">A website with ???</p>
+          <div class="repository-language-used-container">
+            <span class="language-used">HTML</span>
+            <span class="language-used">CSS</span>
+            <span class="language-used">JS</span>
+          </div>
+        </div>
+        <!-- Repo End -->
+        <!-- Repo -->
+        <div class="repository-container">
+          <div class="repository-head">
+            <a href="https://github.com/neyhann/simplepaint" target="_blank" rel="noopener noreferrer">
+              <h3>Want a code for this website? DM me on <a href="https://instagram.com/nehankarki">instagram</a></h3>
+            </a>
+            <a href="https://github.com/neyhann/simplepaint" target="_blank" rel="noopener noreferrer"><img width="16" height="16" src="images/external-link.svg" alt="external-link"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Project -->
+
+  
+      <!-- Skills / Tools -->
+      <h2>What I can do.</h2>
+      <ul class="skill">
+        <li>HTML</li>
+        <li>C/Video Editing via DVR</li>
+        <li>Mods for TF2</li>
+        <li>Minecraft <a href="www.pvprp.com">packs</a>/clients/mods</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <!-- Its okay to remove my name here (indeed you'll get hit) -->
+    <p>
+      © <script>document.write( new Date().getFullYear() );</script> Built by <a href="https://www.instagram.com/nehankarki/">nehan</a>
+    </p>
+  </footer>
+
+  <!-- <h1 id="fin" style="
+      font-family: 'Work Sans', sans-serif;
+      font-size: 20px;
+      margin: 100vh 0 50vh 0;
+    ">
+    <i>~ fin ~</i>
+  </h1> -->
+  <!-- remove if you want to remove hover effect -->
+  <script type="module" src="event-effect.js"></script>
+
+
+</body></html>
